@@ -2,7 +2,8 @@ name: Deploy Dev S3
 
 on:
   push:
-    branches: - dev
+    branches:
+      - dev
 
 jobs:
   deploy:
